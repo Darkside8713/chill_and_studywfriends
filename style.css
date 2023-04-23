@@ -15,7 +15,7 @@
 
   li a {
     display: block;
-    color: cyan;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,10 +28,10 @@
 
   /* Define the animation */
   @keyframes colorchange {
-    0% {background-color: red;}
+    0% {background-color: white;}
     25% {background-color: yellow;}
     50% {background-color: blue;}
-    75% {background-color: green;}
-    100% {background-color: red;}
+    75% {background-color: cyan;}
+    100% {background-color: blueviolet;}
   }
 
