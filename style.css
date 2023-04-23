@@ -10,12 +10,12 @@
   }
 
   li {
-    float: left;
+    float: right;
   }
 
   li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,7 +28,7 @@
 
   /* Define the animation */
   @keyframes colorchange {
-    0% {background-color: white;}
+    0% {background-color: greenyellow;}
     25% {background-color: yellow;}
     50% {background-color: blue;}
     75% {background-color: cyan;}
