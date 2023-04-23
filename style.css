@@ -1,36 +1,37 @@
-<style>
-   /* Add some style to the navigation bar */
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      animation: colorchange 10s infinite;
-    }
+/* Author: Will Inglis*/
+/* Date Created: April 22nd, 2023 */
+/* Add some style to the navigation bar */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    animation: colorchange 10s infinite;
+  }
 
-    li {
-      float: left;
-    }
+  li {
+    float: left;
+  }
 
-    li a {
-      display: block;
-      color: cyan;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
+  li a {
+    display: block;
+    color: cyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
-    /* Change the link color on hover */
-    li a:hover {
-      background-color: #111;
-    }
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #111;
+  }
 
-    /* Define the animation */
-    @keyframes colorchange {
-      0% {background-color: red;}
-      25% {background-color: yellow;}
-      50% {background-color: blue;}
-      75% {background-color: green;}
-      100% {background-color: red;}
-    }
- </style>
+  /* Define the animation */
+  @keyframes colorchange {
+    0% {background-color: red;}
+    25% {background-color: yellow;}
+    50% {background-color: blue;}
+    75% {background-color: green;}
+    100% {background-color: red;}
+  }
+
