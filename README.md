@@ -1,1 +1,1 @@
-# chill_and_studywfriends
+# Chill and Study with friends
