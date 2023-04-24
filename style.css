@@ -1,30 +1,90 @@
 /* Author: Will Inglis*/
 /* Date Created: April 22nd, 2023 */
+
 /* Add some style to the navigation bar */
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    animation: colorchange 10s infinite;
-  }
+/* nav bar */
+body {
+	padding: 0;
+	margin: 0;
+}
 
-  li {
-    float: right;
-  }
+nav {
+	position: fixed; 
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 0;
+	padding: 0 5%;
+	height: 100px;
+	background-color: #111212; /*Refresh Black*/
+}
+/* Change colour in "About Us" page */
+.otherNav {
+  background-color: #57677d;
+}
+nav .logo {
+	float: left;
+	width: 40%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 26px;
+  color: #f9fbfc;
+}
 
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+nav .links {
+	float: right;
+	padding: 0;
+	margin: 0;
+	width: 40%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
 
-  /* Change the link color on hover */
-  li a:hover {
-    background-color: #111;
-  }
+nav .links li {
+	list-style: none;
+}
+
+nav .links a {
+	display:block;
+	padding: .5em;
+	font-size: 18px;
+	font-weight: 300;
+  color: #f9fbfc;
+	text-decoration: none;
+}
+/* Change background colour when hovering over link */
+nav .links a:hover {
+  background-color: #292b2b;
+  border-radius: 5px;
+}
+
+#nav-toggle {
+	position: absolute;
+	top: -100px;
+}
+
+nav .icon-burger {
+	position: absolute;
+	display: none;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+nav .icon-burger .line {
+	width: 30px;
+	height: 5px;
+	background-color: #fff;
+	margin: 5px;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+  display: block;
+}
+
 
   /* Define the animation */
   @keyframes colorchange {
@@ -60,6 +120,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
+
 /* End Footer */
 
