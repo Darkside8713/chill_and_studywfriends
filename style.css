@@ -87,7 +87,7 @@ nav .icon-burger .line {
 }
 
 
-  /* Define the animation */
+/* Define the animation */
   @keyframes colorchange {
     0% {background-color: greenyellow;}
     25% {background-color: yellow;}
@@ -95,7 +95,6 @@ nav .icon-burger .line {
     75% {background-color: cyan;}
     100% {background-color: blueviolet;}
   }
-
 
 /*Media query will give a tailored experience to different devices */
 
