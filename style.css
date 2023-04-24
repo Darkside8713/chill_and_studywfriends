@@ -55,6 +55,7 @@ nav .links a {
   color: #f9fbfc;
 	text-decoration: none;
 }
+
 /* Change background colour when hovering over link */
 nav .links a:hover {
   background-color: #292b2b;
@@ -94,6 +95,89 @@ nav .icon-burger .line {
     75% {background-color: cyan;}
     100% {background-color: blueviolet;}
   }
+
+
+/*Media query will give a tailored experience to different devices */
+
+@media screen and (max-width: 1200px) {
+	nav .logo {
+		float: none;
+		width: auto;
+		justify-content: center;
+	}
+	nav .links{
+		float: none;
+		position: fixed;
+		z-index: 9;
+		left: 0;
+		right: 0;
+		top: 100px;
+		bottom: 100%;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		background-color: rgba(0,0,0,.8);
+		overflow: hidden;
+		transition: all .5s ease-in-out;
+	}
+	nav .links a{
+		font-size: 20px;
+	}
+	nav :checked ~ .links {
+		bottom: 0;
+	}
+	nav .icon-burger {
+		display: block;
+	}
+	nav :checked ~ .icon-burger .line:nth-child(1) {
+		transform: translateY(10px) rotate(225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(3) {
+		transform: translateY(-10px) rotate(-225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(2) {
+		opacity: 0;
+	}
+}
+
+/* DROPDOWN MENU */
+
+.services {
+position: relative;
+}
+
+/* Dropdown content (hidden by default)*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li + li {
+margin-top: 16px;
+}
+
+.dropdown-content li {
+padding: 0.5em 1em;
+width: 8em;
+text-align: center;
+}
+
+.dropdown-content li:hover {
+background-color: #000000;
+}
+
+.services:hover .dropdown-content {
+display: block;
+}
+
+/*RESPONSIVE NAVBAR MENU*/
+
+/* end of nav bar*/	
 
   /* Footer */
   footer {
