@@ -16,11 +16,7 @@ nav {
 	top: 0;
 	padding: 0 5%;
 	height: 100px;
-	background-color: #111212; /*Refresh Black*/
-}
-/* Change colour in "About Us" page */
-.otherNav {
-  background-color: #57677d;
+	background-color: blue; /*Refresh Blue*/
 }
 nav .logo {
 	float: left;
@@ -150,7 +146,7 @@ position: relative;
 .dropdown-content {
   display: none;
   position: fixed;
-  background-color: #000000;
+  background-color: blue;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -180,7 +176,7 @@ display: block;
 
 /* Main Content */
 html, body {
-  background: #212325;
+  background: lightcyan;
   /* Font source: https://fonts.google.com/specimen/Roboto */
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   height: 100%;
