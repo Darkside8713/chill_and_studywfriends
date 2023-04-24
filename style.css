@@ -35,3 +35,31 @@
     100% {background-color: blueviolet;}
   }
 
+  /* Footer */
+  footer {
+    background-color: #111212; /*Refresh Black*/
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+#footer {
+    color: #f9fbfc;
+    font-size: 0.8em;
+}
+
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .responsive{
+    max-width: 100%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+/* End Footer */
+
