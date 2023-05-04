@@ -146,9 +146,9 @@ position: relative;
 .dropdown-content {
   display: none;
   position: fixed;
-  background-color: gray;
+  background-color: black;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: yellow;
   z-index: 1;
 }
 
@@ -178,7 +178,6 @@ display: block;
 .container {
 	position: absolute;
 	margin-top: 50px;
-	margin-bottom: 0px;
 }
 .container img{
   display: block;
