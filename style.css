@@ -182,6 +182,7 @@ display: block;
 }
 .container img{
   display: block;
+  margin: auto;
   width: 50%;
 }
 
