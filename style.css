@@ -176,7 +176,7 @@ display: block;
 
 /* Start of Banner*/
 .container {
-	position: relative;
+	position: absolute;
 	margin-top: 50px;
 }
 .container img{
