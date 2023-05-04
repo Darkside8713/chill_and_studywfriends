@@ -176,13 +176,15 @@ display: block;
 
 /* Start of Banner*/
 .container {
-	position: right;
+	position: absolute;
 	margin-top: 50px;
+	margin-bottom: auto;
 }
 .container img{
   display: block;
   width: 50%;
 }
+
 /* End of banner*/
 
 /* Main Content */
