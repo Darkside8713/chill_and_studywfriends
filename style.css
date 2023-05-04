@@ -178,6 +178,7 @@ display: block;
 .container {
 	position: absolute;
 	margin-top: 50px;
+	margin-bottom: 0px;
 }
 .container img{
   display: block;
