@@ -54,7 +54,7 @@ nav .links a {
 
 /* Change background colour when hovering over link */
 nav .links a:hover {
-  background-color: yellow;
+  background-color: darkblue;
   border-radius: 5px;
 }
 
