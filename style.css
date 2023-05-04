@@ -16,7 +16,7 @@ nav {
 	top: 0;
 	padding: 0 5%;
 	height: 100px;
-	background-color: lightslategray; /*Refresh Blue*/
+	background-color: black; /*Refresh Blue*/
 }
 nav .logo {
 	float: left;
@@ -54,7 +54,7 @@ nav .links a {
 
 /* Change background colour when hovering over link */
 nav .links a:hover {
-  background-color: #292b2b;
+  background-color: yellow;
   border-radius: 5px;
 }
 
